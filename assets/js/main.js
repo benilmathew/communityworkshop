@@ -321,6 +321,18 @@ function initializeRegistrationModal() {
             event.preventDefault();
         }
 
+        const source = event && event.currentTarget && event.currentTarget.dataset
+            ? event.currentTarget.dataset.analyticsSource
+            : 'register';
+
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'register_click', {
+                event_category: 'engagement',
+                event_label: source,
+                value: 1
+            });
+        }
+
         if (modal.classList.contains('is-visible')) {
             return;
         }

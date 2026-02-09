@@ -1,6 +1,6 @@
 # Community Workshop
 
-Static site for Bethesda Bible Chapel Community Workshop.
+Static site for Community Workshop.
 
 ## Structure
 - `index.html`

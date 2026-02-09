@@ -5,7 +5,7 @@
  */
 
 // Asset version for cache busting
-const ASSET_VERSION = '1.0.21';
+const ASSET_VERSION = '1.0.23';
 
 // Export for use in other scripts
 window.APP_CONFIG = {

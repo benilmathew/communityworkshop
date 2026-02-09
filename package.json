@@ -5,7 +5,11 @@
   "main": "index.html",
   "scripts": {
     "serve": "npx http-server -p 8000 -o",
-    "start": "npx http-server -p 8000"
+    "start": "npx http-server -p 8000",
+    "dev": "npx live-server --port=8000"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   },
   "keywords": ["workshop", "community", "redirect"],
   "author": "Bethesda Church",

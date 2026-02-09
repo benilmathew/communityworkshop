@@ -30,13 +30,14 @@
         </script>
 </head>
 <body class="workshop-page">
-    <!-- Header Component -->
-    <div id="header-placeholder"></div>
-
-
     <!-- Page Header -->
     <section class="page-header workshop-hero">
         <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/communityworkshop/banner.png?v=1.0.22" alt="Community Workshop" class="logo-img">
+                </a>
+            </div>
             <h1>Community Workshop</h1>
             <p>Building stronger communities through faith and fellowship</p>
         </div>
@@ -54,7 +55,7 @@
             <div class="workshop-about-grid">
                 <div class="workshop-card workshop-card--highlight">
                     <h3>Who We Are</h3>
-                    <p>We are a local church, Bethesda Bible Chapel (in Irving, TX), that is serving the local community by providing FREE WORKSHOPs about topics critical to life in the US. If you are an international family, college student, early career, local job seeker, or anyone looking to grow themselves, these workshops are for you!</p>
+                    <p>We are an organization serving the local community by providing FREE WORKSHOPs about topics critical to life in the US. If you are an international family, college student, early career, local job seeker, or anyone looking to grow themselves, these workshops are for you!</p>
                 </div>
 
                 <div class="workshop-card workshop-card--highlight">
@@ -205,11 +206,23 @@
         </div>
     </div>
 
-    <!-- Footer Component -->
-    <div id="footer-placeholder"></div>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Bethesda Bible Chapel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/components.js?v=1.0.22"></script>
     <script src="assets/js/main.js?v=1.0.19"></script>
+    <script>
+        const yearEl = document.getElementById('current-year');
+        if (yearEl) {
+            yearEl.textContent = new Date().getFullYear();
+        }
+    </script>
 </body>
 </html>
 

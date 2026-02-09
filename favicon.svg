@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Favicon version - simplified book with cross -->
+  <rect width="32" height="32" fill="transparent"/>
+
+  <!-- Book -->
+  <path d="M6 6 L6 26 Q16 24 16 26 L16 6 Q16 8 6 6 Z"
+        fill="#2c5f8d"
+        stroke="#1a3a5c"
+        stroke-width="0.5"/>
+  <path d="M16 6 L16 26 Q26 24 26 26 L26 6 Q26 8 16 6 Z"
+        fill="#3d7dad"
+        stroke="#2c5f8d"
+        stroke-width="0.5"/>
+
+  <!-- Cross -->
+  <rect x="14" y="12" width="4" height="1" fill="white" opacity="0.95"/>
+  <rect x="15" y="11" width="1" height="4" fill="white" opacity="0.95"/>
+
+  <!-- Book pages -->
+  <line x1="8" y1="9" x2="14" y2="9" stroke="white" stroke-width="0.4" opacity="0.4"/>
+  <line x1="8" y1="12" x2="14" y2="12" stroke="white" stroke-width="0.4" opacity="0.4"/>
+  <line x1="8" y1="15" x2="14" y2="15" stroke="white" stroke-width="0.4" opacity="0.4"/>
+  <line x1="18" y1="9" x2="24" y2="9" stroke="white" stroke-width="0.4" opacity="0.4"/>
+  <line x1="18" y1="12" x2="24" y2="12" stroke="white" stroke-width="0.4" opacity="0.4"/>
+  <line x1="18" y1="15" x2="24" y2="15" stroke="white" stroke-width="0.4" opacity="0.4"/>
+</svg>

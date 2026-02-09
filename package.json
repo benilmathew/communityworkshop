@@ -1,0 +1,13 @@
+{
+  "name": "bethesda-workshop-single-page",
+  "version": "1.0.0",
+  "description": "Single-page community workshop site that redirects to thecommunityworkshops.com",
+  "main": "index.html",
+  "scripts": {
+    "serve": "npx http-server -p 8000 -o",
+    "start": "npx http-server -p 8000"
+  },
+  "keywords": ["workshop", "community", "redirect"],
+  "author": "Bethesda Church",
+  "license": "MIT"
+}

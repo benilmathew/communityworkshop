@@ -510,3 +510,35 @@ function initializeCarousel() {
     init();
     console.log('Carousel initialized successfully');
 }
+
+// ====================================
+// Embedded Registration Form Loader
+// ====================================
+
+function initializeEmbeddedForm() {
+    const embeddedForm = document.getElementById('embedded-registration-form');
+    const spinner = document.getElementById('embedded-form-spinner');
+    
+    if (embeddedForm && spinner) {
+        // Hide spinner and show form when loaded
+        embeddedForm.addEventListener('load', function() {
+            spinner.classList.add('is-hidden');
+            embeddedForm.classList.remove('is-hidden');
+        });
+        
+        // Fallback: Hide spinner after 5 seconds even if load event doesn't fire
+        setTimeout(function() {
+            if (!spinner.classList.contains('is-hidden')) {
+                spinner.classList.add('is-hidden');
+                embeddedForm.classList.remove('is-hidden');
+            }
+        }, 5000);
+    }
+}
+
+// Initialize embedded form on page load
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeEmbeddedForm);
+} else {
+    initializeEmbeddedForm();
+}

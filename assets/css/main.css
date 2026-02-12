@@ -1640,6 +1640,33 @@ img {
     overflow: hidden;
     margin-bottom: 20px;
     border: 1px solid var(--border-color);
+    position: relative;
+    min-height: 600px;
+}
+
+.embedded-form-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    min-height: 600px;
+}
+
+.embedded-form-spinner .spinner-circle {
+    border: 4px solid rgba(44, 95, 141, 0.1);
+    border-top: 4px solid var(--primary-color);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+.embedded-form-spinner .spinner-text {
+    color: var(--text-light);
+    font-size: 16px;
+    text-align: center;
 }
 
 .embedded-registration-form {
@@ -1647,6 +1674,14 @@ img {
     height: 1200px;
     border: none;
     display: block;
+}
+
+.embedded-registration-form.is-hidden {
+    display: none;
+}
+
+.embedded-form-spinner.is-hidden {
+    display: none;
 }
 
 .registration-helper-text {

@@ -1604,6 +1604,72 @@ img {
     line-height: 1.6;
 }
 
+/* ====================================
+   Embedded Registration Section
+   ==================================== */
+.workshop-registration-section {
+    margin-bottom: 0;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, rgba(44, 95, 141, 0.05) 0%, rgba(76, 148, 215, 0.05) 100%);
+    border-radius: 0;
+    width: 100%;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.workshop-registration-section .section-title-small {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.registration-intro {
+    text-align: center;
+    font-size: 18px;
+    color: var(--text-light);
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.embedded-form-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+}
+
+.embedded-registration-form {
+    width: 100%;
+    height: 1200px;
+    border: none;
+    display: block;
+}
+
+.registration-helper-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.registration-helper-text p {
+    font-size: 14px;
+    color: var(--text-light);
+}
+
+.registration-helper-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registration-helper-text a:hover {
+    text-decoration: underline;
+}
+
 .workshop-cta {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     border-radius: 12px;

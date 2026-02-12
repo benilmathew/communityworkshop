@@ -523,6 +523,42 @@
     .main-footer {
         margin-bottom: 0;
     }
+
+    /* Embedded Registration Form - Mobile */
+    .workshop-registration-section {
+        padding: 40px 15px;
+        margin-bottom: 0;
+    }
+
+    .workshop-registration-section .section-title-small {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .registration-intro {
+        font-size: 16px;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .embedded-form-container {
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .embedded-registration-form {
+        height: 1500px; /* Taller on mobile to accommodate form layout */
+    }
+
+    .registration-helper-text {
+        margin-bottom: 10px;
+    }
+
+    .registration-helper-text p {
+        font-size: 13px;
+        padding: 0 10px;
+    }
 }
 
 /* Large desktop screens */

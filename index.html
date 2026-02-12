@@ -1,5 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE     <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=1.0.25">
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=1.0.25">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png?v=1.0.25">
+
+    <link rel="stylesheet" href="assets/css/main.css?v=1.0.25">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.25"><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +14,12 @@
     <script src="assets/js/config.js"></script>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=1.0.23">
-    <link rel="icon" type="image/x-icon" href="favicon.ico?v=1.0.23">
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png?v=1.0.23">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=1.0.24">
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=1.0.24">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png?v=1.0.24">
 
-    <link rel="stylesheet" href="assets/css/main.css?v=1.0.23">
-    <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.23">
+    <link rel="stylesheet" href="assets/css/main.css?v=1.0.24">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=1.0.24">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -51,11 +56,35 @@
         <div class="container">
             <div class="logo">
                 <a href="index.html">
-                    <img src="assets/images/communityworkshop/banner.png?v=1.0.23" alt="Community Workshop" class="logo-img">
+                    <img src="assets/images/communityworkshop/banner.png?v=1.0.25" alt="Community Workshop" class="logo-img">
                 </a>
             </div>
             <h1>Community Workshop</h1>
             <p>Building Stronger Communities Through Faithful Service!</p>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="workshop-registration-section" id="registration-section">
+        <div class="container">
+            <h3 class="section-title-small">Register for Workshops</h3>
+            <p class="registration-intro">Fill out the form below to reserve your spot in our upcoming workshops. Registration is free and only takes a few minutes!</p>
+            
+            <div class="embedded-form-container">
+                <iframe
+                    class="embedded-registration-form"
+                    title="Community workshop registration form"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScw5vueroJ6G_3XGpXZDAJSmaMnouoE7xarnlGUBVj_s09a3g/viewform?embedded=true"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0">
+                    Loading…
+                </iframe>
+            </div>
+            
+            <div class="registration-helper-text">
+                <p>Prefer to open in a new window? <a href="https://docs.google.com/forms/d/e/1FAIpQLScw5vueroJ6G_3XGpXZDAJSmaMnouoE7xarnlGUBVj_s09a3g/viewform?usp=dialog" target="_blank" rel="noopener">Click here to open the form in Google Forms</a></p>
+            </div>
         </div>
     </section>
 
@@ -136,6 +165,9 @@
                 </div>
             </div>
 
+            <!-- Registration Section -->
+
+
             <div class="workshop-cta">
                 <div class="workshop-cta__inner">
                     <div class="workshop-cta__intro">
@@ -194,7 +226,7 @@
         <div class="registration-modal__overlay" data-close-modal></div>
         <div class="registration-modal__content" role="dialog" aria-modal="true" aria-labelledby="registration-modal-title">
             <div class="registration-modal__media-wrapper">
-                <img src="assets/images/communityworkshop/banner.png?v=1.0.23" alt="Community Workshop" class="registration-modal__media-banner">
+                <img src="assets/images/communityworkshop/banner.png?v=1.0.25" alt="Community Workshop" class="registration-modal__media-banner">
                 <button type="button" class="registration-modal__close" aria-label="Close registration form">&times;</button>
             </div>
             <div class="registration-modal__body">
@@ -231,8 +263,8 @@
         </div>
     </footer>
 
-    <script src="assets/js/components.js?v=1.0.23"></script>
-    <script src="assets/js/main.js?v=1.0.23"></script>
+    <script src="assets/js/components.js?v=1.0.25"></script>
+    <script src="assets/js/main.js?v=1.0.25"></script>
     <script>
         const yearEl = document.getElementById('current-year');
         if (yearEl) {
